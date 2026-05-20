@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arpitgahlot/git/FalconSignals/FalconSignals.csproj": {}
+    "C:\\git\\FalconSignals\\FalconSignals.csproj": {}
   },
   "projects": {
-    "/Users/arpitgahlot/git/FalconSignals/FalconSignals.csproj": {
+    "C:\\git\\FalconSignals\\FalconSignals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arpitgahlot/git/FalconSignals/FalconSignals.csproj",
+        "projectUniqueName": "C:\\git\\FalconSignals\\FalconSignals.csproj",
         "projectName": "FalconSignals",
-        "projectPath": "/Users/arpitgahlot/git/FalconSignals/FalconSignals.csproj",
-        "packagesPath": "/Users/arpitgahlot/.nuget/packages/",
-        "outputPath": "/Users/arpitgahlot/git/FalconSignals/obj/",
+        "projectPath": "C:\\git\\FalconSignals\\FalconSignals.csproj",
+        "packagesPath": "C:\\Users\\arpit\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\FalconSignals\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/arpitgahlot/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\arpit\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/arpitgahlot/.dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
