@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FalconSignals")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32849de91a7bf4d1e42cefba810622bd67c5bc87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29b568de45c9a4c1a43cb27bd756c220b8792bbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("FalconSignals")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FalconSignals")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
