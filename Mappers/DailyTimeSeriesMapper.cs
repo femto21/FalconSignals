@@ -1,7 +1,7 @@
 using FalconSignals.Dtos.AlphaVantage;
 using FalconSignals.Entities;
 
-namespace FalconSignals.Mapper;
+namespace FalconSignals.Mappers;
 
 public class DailyTimeSeriesMapper
 {
