@@ -1,5 +1,5 @@
 using FalconSignals.Dtos.AlphaVantage;
-using FalconSignals.Entity;
+using FalconSignals.Entities;
 
 namespace FalconSignals.Mapper;
 

@@ -1,4 +1,4 @@
-namespace FalconSignals.Entity;
+namespace FalconSignals.Entities;
 
 public class DailyTimeSeries
 {
