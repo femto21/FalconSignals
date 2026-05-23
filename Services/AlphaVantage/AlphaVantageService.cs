@@ -7,6 +7,9 @@ public class AlphaVantageService
 
     public AlphaVantageService(HttpClient httpClient, IConfiguration config)
     {
-        
+        _httpClient = httpClient;
+        _config = config;
     }
+    
+    
 }
