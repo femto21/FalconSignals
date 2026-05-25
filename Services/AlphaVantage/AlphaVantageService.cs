@@ -10,6 +10,14 @@ public class AlphaVantageService
         _httpClient = httpClient;
         _config = config;
     }
-    
-    
+
+    public async Task<string> GetDailyTimeSeries(string symbol)
+    {
+        var apiKey = _config["AlphaVantage:ApiKey"];
+
+        var url =
+            $"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={symbol}&apikey={apiKey}";
+
+        return await _httpClient.GetStringAsync(url);
+    }
 }
