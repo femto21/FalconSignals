@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("0e882e45-3ca5-48bd-b48a-c196bb6fefc6")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FalconSignals")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4528a7c11399e66d06dd0f7fff69e3ce216b1fcc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9e8811a6a3659783aff4dc0227df451ac443ef8")]
 [assembly: System.Reflection.AssemblyProductAttribute("FalconSignals")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FalconSignals")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
