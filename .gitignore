@@ -1,0 +1,35 @@
+# Build folders
+bin/
+obj/
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# User secrets
+secrets.json
+
+# App settings with secrets
+appsettings.Development.json
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PostgreSQL local db files (if any)
+*.db
+*.sqlite
+
+# NuGet packages
+*.nupkg
