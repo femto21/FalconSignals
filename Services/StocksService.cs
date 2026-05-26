@@ -13,7 +13,6 @@ public class StocksService
 
     public async Task<string> getDailyTimeSeries(string symbol)
     {
-        
+        return null;
     }
-    
 }
