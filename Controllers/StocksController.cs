@@ -1,5 +1,4 @@
-using FalconSignals.Services.AlphaVantage;
-using Microsoft.AspNetCore.Http.HttpResults;
+using FalconSignals.Services.Stocks;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FalconSignals.Controllers;
@@ -8,18 +7,17 @@ namespace FalconSignals.Controllers;
 [Route("api/v1/stocks")]
 public class StocksController : ControllerBase
 {
-    private readonly AlphaVantageService _alphaVantageService;
+    private readonly DailyTimeSeriesService _dailyTimeSeriesService;
 
-    public StocksController(AlphaVantageService alphaVantageService)
+    public StocksController(DailyTimeSeriesService dailyTimeSeriesService)
     {
-        _alphaVantageService = alphaVantageService;
+        _dailyTimeSeriesService = dailyTimeSeriesService;
     }
 
     [HttpGet("{symbol}/daily")]
     public async Task<IActionResult> GetDaily(string symbol)
     {
-        var result = await _alphaVantageService.GetDailyTimeSeries(symbol);
+        var result = await _dailyTimeSeriesService.GetDailyTimeSeries(symbol);
         return Ok(result);
     }
-    
 }

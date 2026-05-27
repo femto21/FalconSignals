@@ -3,18 +3,19 @@ using FalconSignals.Entities;
 
 namespace FalconSignals.Mappers;
 
-public class DailyTimeSeriesMapper
+public static class DailyTimeSeriesMapper
 {
-    public DailyTimeSeries ToEntity(AlphaVantageDailyDto dto, string symbol)
+    public static DailyTimeSeries ToEntity(AlphaVantageDailyDto dto, string symbol, DateTime date)
     {
         return new DailyTimeSeries
         {
             Symbol = symbol,
-            Open = dto.Open,
-            High = dto.High,
-            Low = dto.Low,
-            Close = dto.Close,
-            Volume = dto.Volume
+            Date = DateTime.SpecifyKind(date, DateTimeKind.Utc),
+            Open = decimal.Parse(dto.Open),
+            High = decimal.Parse(dto.High),
+            Low = decimal.Parse(dto.Low),
+            Close = decimal.Parse(dto.Close),
+            Volume = long.Parse(dto.Volume)
             
         };
     }
